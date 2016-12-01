@@ -93,34 +93,3 @@
       position: absolute;
       top: 640px;
       font-size: 26px; }
-  .reveal section.ckeditor-historia .logoak {
-    margin-top: 20px; }
-    .reveal section.ckeditor-historia .logoak img {
-      vertical-align: middle; }
-      .reveal section.ckeditor-historia .logoak img.ckeditor-logoa {
-        margin-left: 20px; }
-  .reveal section.ckeditor-lizentzia .logoak img {
-    vertical-align: middle; }
-    .reveal section.ckeditor-lizentzia .logoak img.lgpl-logoa {
-      height: 150px; }
-    .reveal section.ckeditor-lizentzia .logoak img.mpl-logoa {
-      height: 115px; }
-  .reveal section.ckeditor-garapen-eredua-ii .ckeditor5-logoa img {
-    width: 300px; }
-  .reveal section.ckeditor-negozio-eredua .azalpena .azpi-izenburua {
-    font-size: 1.6rem;
-    margin: 20px 0px 40px 0px; }
-  .reveal section.ckeditor-negozio-eredua .azalpena ul {
-    float: left;
-    width: 45%; }
-  .reveal section.ckeditor-hilabeteko-pluginak .azalpena {
-    margin-top: 40px; }
-    .reveal section.ckeditor-hilabeteko-pluginak .azalpena ul {
-      float: left;
-      width: 45%; }
-  .reveal section.html5-audio-historia pre code {
-    overflow-y: hidden; }
-  .reveal section.html5-audio-nola-erabili-iii img.ckeditor-adibidea {
-    height: 265px; }
-  .reveal section.galderarik .super-zaila {
-    height: 400px; }
