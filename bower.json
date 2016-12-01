@@ -1,0 +1,28 @@
+{
+  "name": "ahuakemonala-aurkezpena",
+  "version": "0.0.0",
+  "main": [
+    "js/reveal.js",
+    "css/reveal.css"
+  ],
+  "homepage": "http://iametza.github.io/ahuakemonala-aurkezpena",
+  "license": "GNU GPLv3",
+  "description": "Durangoko Azokako Kabi@ gunean egindako Ahuakemonala proiektuaren aurkezpena.",
+  "authors": [
+    "Elisabeth Pombo Aramendi",
+    "Asier Iturralde Sarasola <asier.iturralde@gmail.com>"
+  ],
+  "dependencies": {
+    "headjs": "~1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iametza/ahuakemonala-aurkezpena.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}

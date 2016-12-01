@@ -1,0 +1,126 @@
+/*
+ */
+@font-face {
+  font-family: Graublau Sans Web;
+  src: url(../fonts/GraublauWeb.otf) format("opentype"); }
+
+/******* Orokorrak *******/
+.reveal {
+  font-family: 'Open Sans', sans-serif;
+  /******* Nabigazioko geziak *******/ }
+  .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    font-family: 'Graublau Sans Web', sans-serif; }
+  .reveal h1 {
+    font-size: 48px;
+    text-shadow: none; }
+  .reveal h2 {
+    font-size: 36px; }
+  .reveal h3 {
+    font-size: 24px; }
+  .reveal h4 {
+    font-size: 20px; }
+  .reveal ul {
+    text-align: left;
+    width: 600px;
+    margin: 0 auto; }
+    .reveal ul li {
+      list-style-type: none;
+      background-image: url(../img/bonbila.png);
+      background-repeat: no-repeat;
+      line-height: 30px;
+      padding-left: 30px;
+      padding-bottom: 30px;
+      font-size: 20px; }
+    .reveal ul ul {
+      margin-left: 75px; }
+  .reveal a {
+    color: #B3BA33;
+    text-decoration: none; }
+    .reveal a:hover img {
+      background: none;
+      border-color: none;
+      box-shadow: none; }
+  .reveal strong {
+    font-weight: bold; }
+  .reveal iframe {
+    margin-left: auto;
+    margin-right: auto; }
+  .reveal section img {
+    background: none;
+    border: none;
+    box-shadow: none; }
+  .reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
+    border-bottom-color: #B3BA33; }
+  .reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
+    border-left-color: #B3BA33; }
+  .reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
+    border-top-color: #B3BA33; }
+  .reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
+    border-right-color: #B3BA33; }
+  .reveal section .azalpena {
+    margin: 20px 0px 20px 0px; }
+  .reveal section.sarrera {
+    height: 100%; }
+    .reveal section.sarrera .izenburua {
+      position: absolute;
+      top: 250px; }
+    .reveal section.sarrera .iametza {
+      position: absolute;
+      top: 0px;
+      left: 0px; }
+      .reveal section.sarrera .iametza img {
+        width: 400px; }
+    .reveal section.sarrera .ideia-batetik-errealitatera {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      width: 400px; }
+    .reveal section.sarrera .nork {
+      position: absolute;
+      top: 500px;
+      font-weight: bold;
+      font-size: 32px;
+      text-align: left; }
+      .reveal section.sarrera .nork p {
+        margin-top: 10px; }
+      .reveal section.sarrera .nork a {
+        color: #B3BA33; }
+    .reveal section.sarrera .non {
+      position: absolute;
+      top: 595px;
+      font-size: 26px; }
+    .reveal section.sarrera .noiz {
+      position: absolute;
+      top: 640px;
+      font-size: 26px; }
+  .reveal section.ckeditor-historia .logoak {
+    margin-top: 20px; }
+    .reveal section.ckeditor-historia .logoak img {
+      vertical-align: middle; }
+      .reveal section.ckeditor-historia .logoak img.ckeditor-logoa {
+        margin-left: 20px; }
+  .reveal section.ckeditor-lizentzia .logoak img {
+    vertical-align: middle; }
+    .reveal section.ckeditor-lizentzia .logoak img.lgpl-logoa {
+      height: 150px; }
+    .reveal section.ckeditor-lizentzia .logoak img.mpl-logoa {
+      height: 115px; }
+  .reveal section.ckeditor-garapen-eredua-ii .ckeditor5-logoa img {
+    width: 300px; }
+  .reveal section.ckeditor-negozio-eredua .azalpena .azpi-izenburua {
+    font-size: 1.6rem;
+    margin: 20px 0px 40px 0px; }
+  .reveal section.ckeditor-negozio-eredua .azalpena ul {
+    float: left;
+    width: 45%; }
+  .reveal section.ckeditor-hilabeteko-pluginak .azalpena {
+    margin-top: 40px; }
+    .reveal section.ckeditor-hilabeteko-pluginak .azalpena ul {
+      float: left;
+      width: 45%; }
+  .reveal section.html5-audio-historia pre code {
+    overflow-y: hidden; }
+  .reveal section.html5-audio-nola-erabili-iii img.ckeditor-adibidea {
+    height: 265px; }
+  .reveal section.galderarik .super-zaila {
+    height: 400px; }

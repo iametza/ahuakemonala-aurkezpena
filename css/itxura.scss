@@ -1,0 +1,226 @@
+/*
+ */
+ @font-face {
+  font-family: Graublau Sans Web;
+  src: url(../fonts/GraublauWeb.otf) format("opentype");
+}
+
+/******* Orokorrak *******/
+.reveal {
+    font-family: 'Open Sans', sans-serif;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Graublau Sans Web', sans-serif;
+    }
+
+    h1 {
+        font-size: 48px;
+        text-shadow: none;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    ul {
+        text-align: left;
+        width: 600px;
+        margin: 0 auto;
+
+        li {
+            list-style-type: none;
+            background-image: url(../img/bonbila.png);
+            background-repeat: no-repeat;
+            line-height: 30px;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            font-size: 20px;
+        }
+
+        ul {
+            margin-left: 75px;
+        }
+    }
+
+    a {
+        color: #B3BA33;
+        text-decoration: none;
+
+        &:hover img {
+            background: none;
+            border-color: none;
+            box-shadow: none;
+        }
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section img {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+
+
+    /******* Nabigazioko geziak *******/
+    .controls {
+        .navigate-up, .navigate-up.enabled {
+            border-bottom-color: #B3BA33;
+        }
+        .navigate-right, .navigate-right.enabled {
+            border-left-color: #B3BA33;
+        }
+        .navigate-down, .navigate-down.enabled {
+            border-top-color: #B3BA33;
+        }
+        .navigate-left, .navigate-left.enabled {
+            border-right-color: #B3BA33;
+        }
+    }
+
+    section {
+        .azalpena {
+            margin: 20px 0px 20px 0px;
+        }
+
+        &.sarrera {
+            height: 100%;
+
+            .izenburua {
+                position: absolute;
+                top: 250px;
+            }
+            .iametza {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+
+                img {
+                    width: 400px;
+                }
+            }
+            .ideia-batetik-errealitatera {
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                width: 400px;
+            }
+            .nork {
+                position: absolute;
+                top: 500px;
+                font-weight: bold;
+                font-size: 32px;
+                text-align: left;
+                
+                p {
+                    margin-top: 10px;
+                }
+                a {
+                    color: #B3BA33;
+                }
+            }
+            .non {
+                position: absolute;
+                top: 595px;
+                font-size: 26px;
+            }
+            .noiz {
+                position: absolute;
+                top: 640px;
+                font-size: 26px;
+            }
+        }
+        &.zer-da-ckeditor {
+        }
+        &.ckeditor-historia {
+            .logoak {
+                margin-top: 20px;
+
+                img {
+                    vertical-align: middle;
+
+                    &.ckeditor-logoa {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+        &.ckeditor-lizentzia {
+            .logoak {
+
+                img {
+                    vertical-align: middle;
+
+                    &.lgpl-logoa {
+                        height: 150px;
+                    }
+                    &.mpl-logoa {
+                        height: 115px;
+                    }
+                }
+            }
+        }
+        &.ckeditor-garapen-eredua-ii {
+            .ckeditor5-logoa img {
+                width: 300px;
+            }
+        }
+        &.ckeditor-negozio-eredua {
+            .azalpena {
+                .azpi-izenburua {
+                    font-size: 1.6rem;
+                    margin: 20px 0px 40px 0px;
+                }
+                ul {
+                    float: left;
+                    width: 45%;
+                }
+            }
+        }
+        &.ckeditor-hilabeteko-pluginak {
+            .azalpena {
+                margin-top: 40px;
+
+                ul {
+                    float: left;
+                    width: 45%;
+                }
+            }
+        }
+        &.html5-audio-aurkezpena {
+
+        }
+        &.html5-audio-historia {
+            pre {
+                code {
+                    overflow-y: hidden;
+                }
+            }
+        }
+        &.html5-audio-nola-erabili-iii {
+            img.ckeditor-adibidea {
+                height: 265px;
+            }
+        }
+        &.galderarik {
+            .super-zaila {
+                height: 400px;
+            }
+        }
+    }
+}

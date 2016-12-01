@@ -1,0 +1,413 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Ahuakemonala: Teknologiaz baliatutako egitasmo komunikatiboa</title>
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<!--<link rel="stylesheet" href="css/theme/white.css">-->
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section class="sarrera">
+					<a class="iametza" href="http://www.iametza.eus" target="_blank"><img src="img/iametza.png"></a>
+					<h1 class="izenburua">Ahuakemonala: Teknologiaz baliatutako egitasmo komunikatiboa</h1>
+					<div class="nork">
+                        <p>Elisabeth Pombo Aramendi <a href="http://twitter.com/epombo">@epombo</a></p>
+                        <p>Asier Iturralde Sarasola <a href="http://twitter.com/aldatsa">@aldatsa</a></p>
+                    </div>
+					<p class="non">Durangoko Azokako Kabi@ gunea</p>
+					<p class="noiz">2016-12-05</p>
+					<img class="ideia-batetik-errealitatera" src="img/ideia-batetik-errealitatera.png">
+				</section>
+				<section class="zer-da-ckeditor">
+                    <h2 class="izenburua">Zer da CKEditor?</h2>
+                    <div class="azalpena">CKEditor webguneetan erabiltzen den software libreko testu-editore bat da</div>
+                    <img class="ckeditor-editorea" src="img/ckeditor-editorea.png">
+                </section>
+                <section class="ckeditor-historia">
+                    <h2 class="izenburua">FCKeditor-etik CKEditor-era</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Lehen bertsioa 2003an argitaratu zuten FCKeditor izenarekin.</li>
+                            <li>Izena sortzailearen izenetik dator: Frederico Caldeira Knabben</li>
+                            <li>Baina ingelesezko FUCK hitzaren antz handia du</li>
+                            <li>Izen aldaketa: FCKeditor -> CKEditor</li>
+                        </ul>
+                        <div class="logoak">
+                            <img class="fckeditor-logoa" src="img/fckeditor-logoa.gif">
+                            <img class="ckeditor-logoa" src="img/ckeditor-logoa.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="ckeditor-lizentzia">
+                    <h2 class="izenburua">Lizentzia</h2>
+                    <div class="azalpena">CKEditor GPL, LGPL eta MPL lizentziak erabiliz banatzen da</div>
+                    <div class="logoak">
+                        <img class="gpl-logoa" src="img/GPLv3-logoa.png">
+                        <img class="lgpl-logoa" src="img/LGPL-logoa.png">
+                        <img class="mpl-logoa" src="img/mozilla-foundation.png">
+                    </div>
+                </section>
+                <section class="ckeditor-garapen-eredua">
+                    <h2 class="izenburua">Garapen eredua</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Hasieratik hasieratik software librea</li>
+                            <li>CKEditor 3tik aurrera <a href="http://docs.cksource.com/FCKeditor_3.x/Design_and_Architecture/ODE" target="_blank">Open Development Effort</a></li>
+                            <li>CKEditor-ek hartu beharreko norabidean eta ezaugarri berrien diseinuan komunitatearen iritziak kontutan hartzeko saiakera</li>
+                            <li>Baina ezaugarri batzuk sekretuan garatu zituzten konpetentziaren beldur</li>
+                    </div>
+                </section>
+                <section class="ckeditor-garapen-eredua-ii">
+                    <h2 class="izenburua">Garapen eredua (II)</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>CKEditor 5en garapena erabat publikoa da</li>
+                            <li>Produktuaren ezaugarrien diseinua Github-eko proiektu bateko issue-tan egindako eztabaida publikoen bidez</li>
+                            <li>Guztia eztabaidagai publikoki: erabiltzaile interfaze eta erabiltzaile esperientzia, garapeneko erabaki teknikoak (Adb: ES6 erabiltzea), ...</li>
+                            <li>Erabaki horietan oinarrituta garatzen ari diren CKEditor 5 berriaren kodea ere publiko</li>
+                    </div>
+                    <div class="ckeditor5-logoa">
+                        <a href="https://ckeditor5.github.io/" target="_blank"><img src="img/ckeditor5-logoa.png"></a>
+                    </div>
+                </section>
+                <section class="ckeditor-negozio-eredua">
+                    <h2 class="izenburua">Negozio eredua</h2>
+                    <div class="azalpena">
+                        <p class="azpi-izenburua">Beren produktu nagusia doan banatzen duten software librea den arren erlazionaturiko zerbitzuak eskaintzen dituzte diru truk.</p>
+                        <ul>
+                            <li><strong>CKEditor Premium</strong> Jabedun lizentzia erabiltzeko aukera eta arreta teknikoa.</li>
+                            <li><strong>CKFinder</strong> Fitxategien kudeaketarako softwarearen bertsio osoa ordainpekoa eta jabeduna. Doako bertsioa mugatua baina erabilgarria. Hirugarrenek garatutako alternatiba libreak badira, adibidez, <a href="http://elfinder.org/" target="_blank">elFinder</a>.</li>
+							<li><strong>Formazioa</strong> Bezeroaren beharretara egokitutako formazio saioak.</li>
+						</ul>
+						<ul>
+                            <li><strong>Garapen pertsonalizatuak</strong> Pluginen garapena, pertsonalizazioa, ezaugarri berrien garapena...</li>
+                            <li><strong>Ikuskaritza</strong> Proiektuak ikuskatu, gomendioak egin...</li>
+                            <li><strong>Arreta teknikoa</strong> Zuzeneko harremana garatzaileekin norbere arazo konkretuak konpontzeko</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="ckeditor-zer-da-plugin-bat">
+                    <h2 class="izenburua">Zer da CKEditor-eko plugin bat</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Pluginek CKEditor-ri funtzionalitate gehigarriak gehitzeko aukera ematen dute, adibidez, botoi berriak gehituz.</li>
+                            <li>Pluginei esker web garapenari buruzko ezagutzarik ez duten erabiltzaileek jatorrizko funtzionalitateaz gain beren beharretara egokitutako eduki konplexuak sor ditzakete.</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="ckeditor-arkitektura">
+                    <h2 class="izenburua">Pluginetan oinarritutako arkitektura</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>CKEditor-en oinarrian core edo nukleoa dago. Bere kasa ez du ezer egiten, pluginei JavaScript-eko API bat eskaintzen die.</li>
+                            <li>Funtzionalitate guztiak pluginen bidez garatuta daude.</li>
+                        </ul>
+                    </div>
+                    <div class="meme">
+                        <img src="img/plugins-everywhere.jpg">
+                    </div>
+                </section>
+                <section class="ckeditor-plugin-gordailua">
+                    <h2 class="izenburua">Plugin gordailua</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li><a href="http://ckeditor.com/addons/plugins/" target="_blank">http://ckeditor.com/addons/plugins/</a></li>
+                            <li>Une honetan 489 plugin daude</li>
+                            <li>Doako pluginak eta ordainpekoak</li>
+                            <li>CKEditor-en taldeak garatuak eta komunitateak sortuak</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="ckeditor-ckbuilder">
+                    <h2 class="izenburua">CKBuilder</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Norbere beharretara egokitutako CKEditor editorea sortu eta deskargatzeko tresna: <a href="http://ckeditor.com/builder" target="_blank">http://ckeditor.com/builder</a></li>
+                            <li>3 abiapuntu: oinarrizkoa, estandarra eta osoa</li>
+                            <li>Pluginak kendu eta gehitzeko aukera</li>
+                            <li>Pluginen mendekotasunak automatikoki kudeatzen ditu</li>
+                        </ul>
+                    </div>
+                </section>
+				<section class="ckeditor-hilabeteko-pluginak">
+                    <h2 class="izenburua">Hilabeteko pluginak</h2>
+                    <div class="azalpena">
+						<ul>
+							<li>
+							<p><strong>Urtarrila</strong>: AutoSave <a href="http://ckeditor.com/addon/autosave">http://ckeditor.com/addon/autosave</a></p>
+							</li>
+							<li>
+							<p><strong>Otsaila</strong>: Leaflet Maps <a href="http://ckeditor.com/addon/leaflet">http://ckeditor.com/addon/leaflet</a></p>
+							</li>
+							<li>
+							<p><strong>Martxoa</strong>: Quicktable <a href="http://ckeditor.com/addon/quicktable">http://ckeditor.com/addon/quicktable</a></p>
+							</li>
+							<li>
+							<p><strong>Apirila</strong>: Word Count &amp; Char Count <a href="http://ckeditor.com/addon/wordcount">http://ckeditor.com/addon/wordcount</a></p>
+							</li>
+							<li>
+							<p><strong>Maiatza</strong>: LoopIndex Track Changes <a href="http://ckeditor.com/addon/lite">http://ckeditor.com/addon/lite</a></p>
+							</li>
+						</ul>
+						<ul>
+							<li>
+							<p><strong>Ekaina</strong>: Accessibility Checker <a href="http://ckeditor.com/addon/a11ychecker">http://ckeditor.com/addon/a11ychecker</a></p>
+							</li>
+							<li>
+							<p><strong>Uztaila</strong>: Bootstrap Glyphicon <a href="http://ckeditor.com/addon/glyphicons">http://ckeditor.com/addon/glyphicons</a></p>
+							</li>
+							<li>
+							<p><strong>Abuztua</strong>: HTML5 audio <a href="http://ckeditor.com/addon/html5audio">http://ckeditor.com/addon/html5audio</a></p>
+							</li>
+							<li>
+							<p><strong>Iraila</strong>: Code Editor <a href="http://ckeditor.com/addon/pbckcode">http://ckeditor.com/addon/pbckcode</a></p>
+							</li>
+							<li>
+							<p><strong>Urria</strong>: Chart <a href="http://ckeditor.com/addon/chart">http://ckeditor.com/addon/chart</a></p>
+							</li>
+						</ul>
+					</div>
+                </section>
+                <section class="html5-audio-aurkezpena">
+                    <h2 class="izenburua">iametzak garatutako html5 audio plugina</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Webguneetan modu erraz batean HTML5 audioak txertatzeko aukera ematen du</li>
+                            <li><a href="http://ckeditor.com/addon/html5audio" target="_blank">http://ckeditor.com/addon/html5audio</a></li>
+                        </ul>
+                        <div class="logoa">
+                            <img src="img/ckeditor-html5-audio-logo.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="html5-audio-historia">
+                    <h2 class="izenburua">Historia</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li><a href="http://argia.eus" target="_blank">ARGIA.eus</a>eko lankideek webgunean lizentzia libredun irratien audioak jarri nahi zituzten</li>
+                            <li>CKEditor-en funtzionalitate hori ematen zuen pluginik ez zegoen</li>
+                            <li>HTMLa zuzenean editatzea ez da praktikoa</li>
+                        </ul>
+                        <pre>
+                            <code>
+                                &lt;audio controls="controls" src="adibidea.mp3"></audio>
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+                <section class="html5-audio-nola-erabili">
+                    <h2 class="izenburua">Nola erabili?</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>
+                                <p>Kurtsorea audioa txertatu nahi den lekuan kokatu eta CKEditor-en tresna barrako bozgorailu itxurako botoian klikatu...</p>
+                                <p><img src="img/html5audio-button-highlighted_0.png"></p>
+                            </li>
+
+                            <li>
+                                <p>eta leiho bat irekitzen da...</p>
+                                <p><img src="img/ckeditor-html5-audio-euskaraz.png"></p>
+                                <p>bertan audioaren URLa sartu eta dagoeneko zerbitzarian dagoen audio bat hautatu daiteke.</p>
+                                <p>Audio erreproduzitzailea nola lerrokatu ere hautatu daiteke.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="html5-audio-nola-erabili-ii">
+                    <h2 class="izenburua">Nola erabili? (II)</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>
+                                <p>Kargatu fitxa erabiliz audio-fitxategi berriak kargatu daitezke zerbitzarira.</p>
+                                <p><img src="img/ckeditor-html5-audio-kargatu-euskaraz.png"></p>
+                            </li>
+
+                            <li>
+                                <p>Erabiltzaileen eskaerari erantzunez audioa automatikoki erreproduzitzeko aukera ere gehitu genuen.</p>
+                                <p><img src="img/ckeditor-html5-audio-aurreratua-euskaraz.png"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="html5-audio-nola-erabili-iii">
+                    <h2 class="izenburua">Nola erabili? (III)</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>
+                                <p>Erdian lerrokatutako erreproduzitzailearen adibidea.</p>
+                                <p><img class="ckeditor-adibidea" src="img/ckeditor-html5-audio-erdian-adibidea.png"></p>
+                            </li>
+
+                            <li>
+                                <p>Ezkerrean edo eskuinean ere lerrokatu daiteke.</p>
+                                <p><img class="ckeditor-adibidea" src="img/ckeditor-html5-audio-eskuinean-adibidea.png"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="html5-audio-harrera">
+                    <h2 class="izenburua">Harrera</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Ikus dezakezuenez oso plugin sinplea da.</li>
+                            <li>Eskaera zuen funtzionalitate hutsune bat betetzen duenez harrera ona izan du.</li>
+                            <li>5.000 deskargatik gora hilabete gutxian.</li>
+                            <li>Erabiltzaileek beren hizkuntzetara itzuli dute.</li>
+                            <li>CKEditor-ek abuztuko hilabeteko plugin bezala nabarmendu zuen!</li>
+                    </div>
+                </section>
+                <section class="html5-audio-zin-dagit-ez-geniela-ordaindu">
+                    <h2 class="izenburua">Zin dagit ez geniela ordaindu (I)</h2>
+                    <div class="azalpena">
+                        <blockquote class="twitter-tweet" data-lang="eu"><p lang="en" dir="ltr">.<a href="https://twitter.com/iametza">@iametza</a>’s Simple HTML5 audio plugin for <a href="https://twitter.com/ckeditor">@ckeditor</a> should be a model for all CKEditor plugins. Clean &amp; easy. <a href="https://t.co/RNu3bLVFTe">https://t.co/RNu3bLVFTe</a></p>&mdash; Chris Garaffa (@cmg) <a href="https://twitter.com/cmg/status/776791781186887680">2016(e)ko irailak 16</a></blockquote>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </section>
+                <section class="html5-audio-zin-dagit-ez-geniela-ordaindu">
+                    <h2 class="izenburua">Zin dagit ez geniela ordaindu (II)</h2>
+                    <div class="azalpena">
+                        <blockquote class="twitter-tweet" data-lang="eu" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/ckeditor">@ckeditor</a> <a href="https://twitter.com/aldatsa">@aldatsa</a> Very vell done! It&#39;s really one of the best documented plugins in the repository!</p>&mdash; SmartCore Studio (@smartcorestudio) <a href="https://twitter.com/smartcorestudio/status/760355585028161536">2016(e)ko abuztuak 2</a></blockquote>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </section>
+                <section class="html5-audio-lizentzia">
+                    <h2 class="izenburua">Lizentzia</h2>
+                    <div class="azalpena">
+                        <div class="azalpena">
+                            <ul>
+                                <li>html5 audio plugina <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPLv3</a> lizentzia duen software librea da</li>
+                                <li>Kodea github-en: <a href="https://github.com/iametza/ckeditor-html5-audio" target="_blank">https://github.com/iametza/ckeditor-html5-audio</a></li>
+                        </div>
+                        <div class="logoak">
+                            <img class="gpl-logoa" src="img/GPLv3-logoa.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="html5-audio-itzulpenak">
+                    <h2 class="izenburua">Itzulpenak</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Hasiera batean euskaraz, gazteleraz eta ingelesez argitaratu genuen</li>
+                            <li>Erabiltzaileek hainbat itzulpen egin dituzte:</li>
+                            <ul>
+                                <li>Alemana: <a href="https://github.com/jenzener">Mischa Sameli</a></li>
+                            	<li>Errusiera: <a href="https://github.com/smartcorestudio">smartcorestudio</a> (argitaratutako egunean bertan)</li>
+                                <li>Frantsesa: <a href="https://github.com/simogeo">Simon Georget</a></li>
+                            	<li>Ukrainiera: <a href="https://github.com/Sensetivity">Sensetivity</a></li>
+                            </ul>
+                        </ul>
+                        <div class="irudia">
+                            <img src="img/ckeditor-html5-audio-errusieraz.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="html5-audio-negozio-eredua">
+                    <h2>html5 audio pluginaren negozio eredua</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Argitaratzean erabaki beharra: doan edo ordainduta?</li>
+                            <li>CKEditor asko erabiltzen dugu, doan banatuta komunitateari ekarpena</li>
+                            <li>Marketing eta ikuspuntu komertzialetik irabazia: sare sozialetan zabalkundea, aurkezpenak, bezeroei CKEditor kontrolatzen dugula eta plugin arrakastatsu bat sortu dugula erakusteko aukera
+                        </ul>
+                    </div>
+                </section>
+                <section class="html5-audio-komunitatea">
+                    <h2>Komunitatearekin harremana</h2>
+                    <div class="azalpena">
+                        <ul>
+                            <li>Mundu mailan erabiliko den zerbait argitaratzen nuen lehen aldia</li>
+                            <li>Momentuz ez dugu komunitatearen kode ekarpenik jaso</li>
+                            <li>Itzulpenak bidaltzeko bi aukera: pluginaren orrian iruzkina idatzita edo pull request-a github-en. Itzulpen guztiak github-etik jaso ditugu</li>
+                            <li>Erabiltzaileek arazoen berri eman digute Github eta CKEditor-eko webgunea erabiliz. Gehienen arazoak konpondu ditugu baina kasu batzuetan ezin lagundu. CKEditor-en inguruan mundu bat dago: CMSekin integrazioa, garapeneko framework-ekin integrazioa...</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="html5-audio-hilabeteko-plugina">
+                    <h2 class="izenburua">Abuztuko hilabeteko plugina</h2>
+                    <div class="azalpena">
+                        <blockquote class="twitter-tweet" data-lang="eu"><p lang="en" dir="ltr">Check out our CKEditor Add-On of August - Simple HTML5 audio by <a href="https://twitter.com/aldatsa">@aldatsa</a> <a href="https://t.co/b4npbs54Sm">https://t.co/b4npbs54Sm</a> <a href="https://t.co/ozSqK3mFTl">pic.twitter.com/ozSqK3mFTl</a></p>&mdash; CKEditor (@ckeditor) <a href="https://twitter.com/ckeditor/status/760084056944107520">2016(e)ko abuztuak 1</a></blockquote>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </section>
+				<section class="html5-audio-hilabeteko-plugina-ii">
+                    <h2 class="izenburua">Abuztuko hilabeteko plugina (II)</h2>
+                    <div class="azalpena">
+                        <p>Ilusio berezia egin zidan CKEditor-ek euskarazko txio bat bertxiotzeak</p>
+						<blockquote class="twitter-tweet" data-lang="eu"><p lang="eu" dir="ltr">Gure HTML5 audio plugina <a href="https://twitter.com/ckeditor">@ckeditor</a>​en abuztuko hilabeteko plugin bezala nabarmendu dute <a href="https://t.co/9ME2D4Yn28">https://t.co/9ME2D4Yn28</a> <a href="https://t.co/6u1lqJqRRW">pic.twitter.com/6u1lqJqRRW</a></p>&mdash; iametza (@iametza) <a href="https://twitter.com/iametza/status/760397725514997760">2016(e)ko abuztuak 2</a></blockquote>
+						<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </section>
+                <section class="html5-audio-hilabeteko-plugina-iii">
+                    <h2 class="izenburua">Abuztuko hilabeteko plugina (III)</h2>
+                    <div class="azalpena">
+                        <p>Pluginen orrian nabarmenduta agertu zen hilabetez</p>
+                        <img src="img/plugin-of-the-month.png">
+                    </div>
+                </section>
+                <section class="galderarik">
+                    <h2 class="izenburua">Horixe zen guztia. Galderarik?</h2>
+                    <div class="azalpena">
+                        <img class="super-zaila" src="img/5586141_keep_calm_and_please_dont_ask_super_hard_questions.png">
+                    </div>
+                </section>
+				<section class="galderarik">
+                    <h2 class="izenburua">Mila esker!</h2>
+                    <div class="azalpena">
+                        <ul>
+							<li>
+								<p>Aurkezpena:</p>
+								<p><a href="https://iametza.github.io/ckeditor-aurkezpena/#/">https://iametza.github.io/ckeditor-aurkezpena/</a></p>
+							</li>
+							<li>
+								<p>Aurkezpenaren iturburu-kodea (GNU GPLv3):</p>
+								<p><a href="github.com/iametza/ckeditor-aurkezpena">https://github.com/iametza/ckeditor-aurkezpena</a></p>
+							</li>
+							<li>
+								<p>Aurkezpena garatzeko Reveal.js erabili dut:</p>
+								<p><a href="http://lab.hakim.se/reveal-js/">http://lab.hakim.se/reveal-js/</a></p>
+								<p>MIT lizentzia duen software librea da</p>
+							</li>
+						</ul>
+                    </div>
+                </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+                transition: "default",
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
