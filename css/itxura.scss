@@ -148,9 +148,12 @@
         &.zer-da-ahuakemonala {
         }
         &.ahuakemonala-ezaugarriak {
+            .azalpena {
+                margin-top: 30px;
 
-            .ahuakemonala-argazkixa {
-                width: 475px;
+                .ahuakemonala-argazkixa {
+                    width: 450px;
+                }
             }
         }
         &.ahuakemonala-elementu-teknologiko-komunikatiboak-i {
@@ -158,7 +161,7 @@
         &.ahuakemonala-elementu-teknologiko-komunikatiboak-ii {
             .irudia {
                 float: right;
-                width: 500px;
+                width: 550px;
 
                 .erabiltzaileak {
                     width: 100%;
@@ -168,10 +171,10 @@
                 }
             }
             .google-play {
-                margin-top: 100px;
+                margin-top: 80px;
             }
             .google-play, .app-store {
-                height: 100px;
+                width: 250px;
                 margin-bottom: 30px;
             }
         }
@@ -195,25 +198,36 @@
             }
         }
         &.ahuakemonala-herria-komunitatea-partehartzea {
-            .puntuak {
-                float: left;
-                width: 475px;
 
-                .radixu {
-                    margin-top: 10px;
-                    text-align: center;
+            .azalpena {
+                margin-top: 20px;
+                .puntuak {
+                    float: left;
+                    width: 475px;
+
+                    .radixu {
+                        margin-top: 10px;
+                        text-align: center;
+                    }
                 }
-            }
-            .irudiak {
-                float: right;
-                width: 425px;
+                .irudiak {
+                    float: right;
+                    width: 425px;
 
-                .ahuakemonala-argazkixa {
-                    width: 100%;
+                    .ahuakemonala-argazkixa {
+                        width: 100%;
+                    }
                 }
             }
         }
         &.ahuakemonala-sekuentzia-logikoa {
+            .azalpena {
+                margin-top: 20px;
+                .ahuakemonala-argazkixa {
+                    width: 740px;
+                    margin-bottom: 15px;
+                }
+            }
         }
         &.ahuakemonala-emaitzak {
         }

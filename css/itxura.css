@@ -93,19 +93,21 @@
       position: absolute;
       top: 640px;
       font-size: 26px; }
-  .reveal section.ahuakemonala-ezaugarriak .ahuakemonala-argazkixa {
-    width: 475px; }
+  .reveal section.ahuakemonala-ezaugarriak .azalpena {
+    margin-top: 30px; }
+    .reveal section.ahuakemonala-ezaugarriak .azalpena .ahuakemonala-argazkixa {
+      width: 450px; }
   .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .irudia {
     float: right;
-    width: 500px; }
+    width: 550px; }
     .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .irudia .erabiltzaileak {
       width: 100%; }
     .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .irudia .oina {
       font-size: 12px; }
   .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .google-play {
-    margin-top: 100px; }
+    margin-top: 80px; }
   .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .google-play, .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .app-store {
-    height: 100px;
+    width: 250px;
     margin-bottom: 30px; }
   .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-vi .irudia {
     width: 700px;
@@ -114,14 +116,21 @@
       width: 100%; }
     .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-vi .irudia .oina {
       font-size: 12px; }
-  .reveal section.ahuakemonala-herria-komunitatea-partehartzea .puntuak {
-    float: left;
-    width: 475px; }
-    .reveal section.ahuakemonala-herria-komunitatea-partehartzea .puntuak .radixu {
-      margin-top: 10px;
-      text-align: center; }
-  .reveal section.ahuakemonala-herria-komunitatea-partehartzea .irudiak {
-    float: right;
-    width: 425px; }
-    .reveal section.ahuakemonala-herria-komunitatea-partehartzea .irudiak .ahuakemonala-argazkixa {
-      width: 100%; }
+  .reveal section.ahuakemonala-herria-komunitatea-partehartzea .azalpena {
+    margin-top: 20px; }
+    .reveal section.ahuakemonala-herria-komunitatea-partehartzea .azalpena .puntuak {
+      float: left;
+      width: 475px; }
+      .reveal section.ahuakemonala-herria-komunitatea-partehartzea .azalpena .puntuak .radixu {
+        margin-top: 10px;
+        text-align: center; }
+    .reveal section.ahuakemonala-herria-komunitatea-partehartzea .azalpena .irudiak {
+      float: right;
+      width: 425px; }
+      .reveal section.ahuakemonala-herria-komunitatea-partehartzea .azalpena .irudiak .ahuakemonala-argazkixa {
+        width: 100%; }
+  .reveal section.ahuakemonala-sekuentzia-logikoa .azalpena {
+    margin-top: 20px; }
+    .reveal section.ahuakemonala-sekuentzia-logikoa .azalpena .ahuakemonala-argazkixa {
+      width: 740px;
+      margin-bottom: 15px; }
