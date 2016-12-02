@@ -95,5 +95,33 @@
       font-size: 26px; }
   .reveal section.ahuakemonala-ezaugarriak .ahuakemonala-argazkixa {
     width: 475px; }
-  .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .ahuakemonala-argazkixa {
+  .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .irudia {
+    float: right;
+    width: 500px; }
+    .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .irudia .erabiltzaileak {
+      width: 100%; }
+    .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .irudia .oina {
+      font-size: 12px; }
+  .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .google-play {
+    margin-top: 100px; }
+  .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .google-play, .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-ii .app-store {
+    height: 100px;
+    margin-bottom: 30px; }
+  .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-vi .irudia {
+    width: 700px;
+    margin: 0 auto; }
+    .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-vi .irudia .bertso-saioa {
+      width: 100%; }
+    .reveal section.ahuakemonala-elementu-teknologiko-komunikatiboak-vi .irudia .oina {
+      font-size: 12px; }
+  .reveal section.ahuakemonala-herria-komunitatea-partehartzea .puntuak {
+    float: left;
     width: 475px; }
+    .reveal section.ahuakemonala-herria-komunitatea-partehartzea .puntuak .radixu {
+      margin-top: 10px;
+      text-align: center; }
+  .reveal section.ahuakemonala-herria-komunitatea-partehartzea .irudiak {
+    float: right;
+    width: 425px; }
+    .reveal section.ahuakemonala-herria-komunitatea-partehartzea .irudiak .ahuakemonala-argazkixa {
+      width: 100%; }

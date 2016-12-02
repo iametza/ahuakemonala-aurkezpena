@@ -156,11 +156,62 @@
         &.ahuakemonala-elementu-teknologiko-komunikatiboak-i {
         }
         &.ahuakemonala-elementu-teknologiko-komunikatiboak-ii {
-            .ahuakemonala-argazkixa {
-                width: 475px;
+            .irudia {
+                float: right;
+                width: 500px;
+
+                .erabiltzaileak {
+                    width: 100%;
+                }
+                .oina {
+                    font-size: 12px;
+                }
+            }
+            .google-play {
+                margin-top: 100px;
+            }
+            .google-play, .app-store {
+                height: 100px;
+                margin-bottom: 30px;
+            }
+        }
+        &.ahuakemonala-elementu-teknologiko-komunikatiboak-iii {
+        }
+        &.ahuakemonala-elementu-teknologiko-komunikatiboak-iv {
+        }
+        &.ahuakemonala-elementu-teknologiko-komunikatiboak-v {
+        }
+        &.ahuakemonala-elementu-teknologiko-komunikatiboak-vi {
+            .irudia {
+                width: 700px;
+                margin: 0 auto;
+
+                .bertso-saioa {
+                    width: 100%;
+                }
+                .oina {
+                    font-size: 12px;
+                }
             }
         }
         &.ahuakemonala-herria-komunitatea-partehartzea {
+            .puntuak {
+                float: left;
+                width: 475px;
+
+                .radixu {
+                    margin-top: 10px;
+                    text-align: center;
+                }
+            }
+            .irudiak {
+                float: right;
+                width: 425px;
+
+                .ahuakemonala-argazkixa {
+                    width: 100%;
+                }
+            }
         }
         &.ahuakemonala-sekuentzia-logikoa {
         }
