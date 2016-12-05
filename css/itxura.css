@@ -134,3 +134,14 @@
     .reveal section.ahuakemonala-sekuentzia-logikoa .azalpena .ahuakemonala-argazkixa {
       width: 740px;
       margin-bottom: 15px; }
+  .reveal section.ahuakemonala-aplikazioa-apm-android .puntuak {
+    float: left; }
+    .reveal section.ahuakemonala-aplikazioa-apm-android .puntuak .sa-matao-paco {
+      width: 500px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 50px; }
+  .reveal section.ahuakemonala-aplikazioa-apm-android .irudiak {
+    float: right; }
+    .reveal section.ahuakemonala-aplikazioa-apm-android .irudiak .ahuakemonala-argazkixa {
+      height: 510px; }

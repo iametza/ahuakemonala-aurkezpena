@@ -233,5 +233,28 @@
         }
         &.ahuakemonala-ondorioak {
         }
+        &.ahuakemonala-aplikazioa-bideoa {
+        }
+        &.ahuakemonala-aplikazioa-nola-sortu-zen-ideia {
+        }
+        &.ahuakemonala-aplikazioa-apm-android {
+            .puntuak {
+                float: left;
+
+                .sa-matao-paco {
+                    width: 500px;
+                    margin: 0 auto;
+                    display: block;
+                    margin-top: 50px;
+                }
+            }
+            .irudiak {
+                float: right;
+
+                .ahuakemonala-argazkixa {
+                    height: 510px;
+                }
+            }
+        }
     }
 }
