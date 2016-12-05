@@ -6,7 +6,7 @@ http://iametza.github.io/ahuakemonala-aurkezpena
 
 Nahiago izanez gero PDFan ere eskuratu dezakezu:
 
-https://github.com/iametza/ahuakemonala-aurkezpena/raw/master/ahuakemonala-aurkezpena-kabia2016.pdf
+https://github.com/iametza/ahuakemonala-aurkezpena/raw/master/ahuakemonala-aurkezpena-kabia-2016.pdf
 
 ##Aurkezpen hau reveal.js erabiliz sortu dugu
 
