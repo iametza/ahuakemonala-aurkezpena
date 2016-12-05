@@ -201,8 +201,17 @@
         }
         &.ahuakemonala-elementu-teknologiko-komunikatiboak-viii {
             .irudiak {
+                margin-left: 145px;
+                margin-top: -20px;
+
                 img {
-                    width: 315px;
+                    width: 340px;
+                    float: left;
+                    margin: 10px;
+
+                    &:first-child {
+                        margin-top: 65px;
+                    }
                 }
             }
         }
