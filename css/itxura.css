@@ -145,3 +145,14 @@
     float: right; }
     .reveal section.ahuakemonala-aplikazioa-apm-android .irudiak .ahuakemonala-argazkixa {
       height: 510px; }
+  .reveal section.ahuakemonala-aplikazioa-ezaugarri-teknikoak .irudiak .irudia {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin-top: 30px; }
+    .reveal section.ahuakemonala-aplikazioa-ezaugarri-teknikoak .irudiak .irudia img {
+      width: 300px; }
+      .reveal section.ahuakemonala-aplikazioa-ezaugarri-teknikoak .irudiak .irudia img.ionic {
+        width: 280px; }
+      .reveal section.ahuakemonala-aplikazioa-ezaugarri-teknikoak .irudiak .irudia img.sqlite {
+        width: 165px; }
