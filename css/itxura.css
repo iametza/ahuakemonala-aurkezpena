@@ -156,3 +156,8 @@
         width: 280px; }
       .reveal section.ahuakemonala-aplikazioa-ezaugarri-teknikoak .irudiak .irudia img.sqlite {
         width: 165px; }
+  .reveal section.galderarik .irudiak img {
+    vertical-align: middle; }
+    .reveal section.galderarik .irudiak img.iametza-logoa {
+      width: 300px;
+      margin-left: 50px; }

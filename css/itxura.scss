@@ -265,7 +265,7 @@
                     width: 40%;
                     text-align: center;
                     margin-top: 30px;
-                    
+
                     img {
                         width: 300px;
 
@@ -279,6 +279,20 @@
                         &.sqlite {
                             width: 165px;
                         }
+                    }
+                }
+            }
+        }
+        &.galderarik {
+
+            .irudiak {
+
+                img {
+                    vertical-align: middle;
+
+                    &.iametza-logoa {
+                        width: 300px;
+                        margin-left: 50px;
                     }
                 }
             }
