@@ -145,6 +145,19 @@
     float: right; }
     .reveal section.ahuakemonala-aplikazioa-apm-android .irudiak .ahuakemonala-argazkixa {
       height: 510px; }
+  .reveal section.ahuakemonala-aplikazioa-ezaugarriak .puntuak {
+    float: left; }
+    .reveal section.ahuakemonala-aplikazioa-ezaugarriak .puntuak .dendak {
+      text-align: center;
+      margin-top: 50px; }
+      .reveal section.ahuakemonala-aplikazioa-ezaugarriak .puntuak .dendak .google-play {
+        height: 65px; }
+      .reveal section.ahuakemonala-aplikazioa-ezaugarriak .puntuak .dendak .app-store {
+        height: 65px; }
+  .reveal section.ahuakemonala-aplikazioa-ezaugarriak .pantaila-argazkia {
+    float: right; }
+    .reveal section.ahuakemonala-aplikazioa-ezaugarriak .pantaila-argazkia img {
+      height: 550px; }
   .reveal section.ahuakemonala-aplikazioa-ezaugarri-teknikoak .irudiak .irudia {
     display: inline-block;
     width: 40%;

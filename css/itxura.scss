@@ -256,6 +256,30 @@
                 }
             }
         }
+        &.ahuakemonala-aplikazioa-ezaugarriak {
+            .puntuak {
+                float: left;
+
+                .dendak {
+                    text-align: center;
+                    margin-top: 50px;
+                    
+                    .google-play {
+                        height: 65px;
+                    }
+                    .app-store {
+                        height: 65px;
+                    }
+                }
+            }
+            .pantaila-argazkia {
+                float: right;
+
+                img {
+                    height: 550px;
+                }
+            }
+        }
         &.ahuakemonala-aplikazioa-ezaugarri-teknikoak {
 
             .irudiak {
