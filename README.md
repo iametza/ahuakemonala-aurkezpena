@@ -8,6 +8,8 @@ Nahiago izanez gero PDFan ere eskuratu dezakezu:
 
 https://github.com/iametza/ahuakemonala-aurkezpena/raw/master/ahuakemonala-aurkezpena-kabia-2016.pdf
 
+![alt Aurkezpena hasi aurretik](img/kabia-durango-ahuakemonala.jpeg)
+
 ##Aurkezpen hau reveal.js erabiliz sortu dugu
 
 reveal.js MIT lizentzia duen software librea da.
